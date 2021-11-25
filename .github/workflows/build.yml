@@ -12,6 +12,7 @@ jobs:
       - name: 'Start build job'
         run: |
           echo "Starting the build job"
+          
       - name: 'Checkout'
         uses: actions/checkout@v2
 
